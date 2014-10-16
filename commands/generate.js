@@ -150,7 +150,7 @@ function setupTask(generator) {
         // if it is a string, simple call generatorEngine once
         // else it is an object(array), repeat the generatorEngine call
         if (typeof srcPath === 'string') {
-            dirName = (type === 'state') ? 'states' : 'prefabs';
+            dirName = (type === 'state') ? 'states' : '';
             finalPath = pathNested ? dirName + pathName : dirName;
             destPath =  path.resolve('project/scripts') + '/' + finalPath;
 

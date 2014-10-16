@@ -14,13 +14,13 @@ gulp.task('default', function(done) {
         {
             type: 'input',
             name: 'name',
-            default: 'Awesome Phaser',
+            default: 'Phaser Game',
             message: 'Name your game'
         },
         {
             type: 'input',
             name: 'packageName',
-            default: 'awesome-phaser',
+            default: 'phaser-game',
             message: 'package name',
             validate: function (input) {
                 var pass = input.match(/^[A-Za-z0-9\-]+$/);

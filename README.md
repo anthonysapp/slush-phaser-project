@@ -27,7 +27,7 @@ Frameworks and tools used to make it possible:
 - [BrowserSync][browsersync]: for automatically dev reload
 - [Google Analytics][analytics]: lets you track informations from players
 
-## Pre-requesits
+## Pre-requisites
 
 You will need to have [node][node], [gulp][gulp] and [slush][slush] setup on your machine.
 
@@ -46,8 +46,8 @@ Navigate to where you want to develop your game (you can create a new folder too
 
 ```sh
 $ cd /path/to/folder
-$ mkdir myGreatGame
-$ cd ./myGreatGame
+$ mkdir phaser-game
+$ cd ./phaser-game
 ```
 
 Then call the [slush][slush] template to begin.
@@ -72,7 +72,7 @@ Now there's only generator support from the cli command, maybe project or some o
     phaser [command] [options]
 
     Commands:
-        g|generate         // Generate a new scene/prefab with ES6 support       
+        g|generate         // Generate a new state/prefab with ES6 support
 
     Options:
         -h, --help     output usage information

@@ -8,13 +8,13 @@
     "es6",
     "browser-sync"
   ],
-  "author": "Sean Bohan <pixelpicosean@gmail.com>",
+  "author": "Anthony Sapp <anthony@reli.sh>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PixelPicoSean/slush-phaser-project"
+    "url": "https://github.com/anthonysapp/slush-phaser-project"
   },
   "bugs": {
-    "url": "https://github.com/PixelPicoSean/slush-phaser-project/issues"
+    "url": "https://github.com/anthonysapp/slush-phaser-project/issues"
   },
   "licence": "MIT",
   "main": "src/commands/cli",
