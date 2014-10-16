@@ -5,7 +5,7 @@ var program = require('commander'),
 
 // Version
 program
-    .version('slush-phaser-project ' + pkg.version)
+    .version('relish-phaser-project ' + pkg.version)
     .usage('[command] [options]\n\n  Command-Specific Help\n\n    phaser [command] --help');
 
 // Generator
