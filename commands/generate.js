@@ -152,28 +152,9 @@ function setupTask(generator) {
         if (typeof srcPath === 'string') {
             dirName = (type === 'state') ? 'states' : '';
             finalPath = pathNested ? dirName + pathName : dirName;
-            destPath =  path.resolve('project/scripts') + '/' + finalPath;
+            destPath =  path.resolve('src/scripts') + '/' + finalPath;
 
             generatorEngine(type, srcPath, moduleName, fileName, finalPath, destPath);
-        }
-        // multiple file generation not support for now
-        else {
-            /*for (var j = 0, l = srcPath.length; j < l; j++) {
-                var _type = srcPath[j].type,
-                    // when original type is 'component'
-                    // it will create a template file at 'templates/components' folder
-                    injection = srcPath[j].injection;
-
-                dirName = (_type.slice(-1) === 's') ? _type : _type + 's';
-                dirName = (injection) ? dirName + '/' + injection : dirName;
-
-                finalPath = pathNested ? dirName + pathName : dirName;
-                destPath =  path.resolve('project/scripts') + '/' + finalPath;
-
-                generatorEngine(
-                    _type, srcPath[j].generatorPath, moduleName, fileName, finalPath, destPath
-                );
-            }*/
         }
     });
 }
@@ -182,7 +163,7 @@ var generate = function(options) {
 
     // Error out when user did not provide any arugments
     if (argv._.length < 2) {
-        gutil.log(gutil.colors.red('[-Error:] Missing type:name argument.'), 'ex: phaser g sprite:coin');
+        gutil.log(gutil.colors.red('[-Error:] Missing type:name argument.'), 'ex: phaser g sprite:actors/Actor');
         gutil.log(gutil.colors.red('[-Error:]'), 'See \'phaser generate --help\'');
         process.exit(0);
     }
@@ -235,7 +216,7 @@ var generate = function(options) {
     else {
         gutil.log(
             gutil.colors.red('[-Error:] Provide the wrong argument. It must be in this format '),
-            gutil.colors.cyan('type:name'), ' ex: phaser g sprite:coin'
+            gutil.colors.cyan('type:name'), ' ex: phaser g sprite:actors/Actor'
         );
         gutil.log(
             gutil.colors.red('[-Error:]'),
