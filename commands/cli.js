@@ -12,13 +12,13 @@ program
 program
   .command('g')
   .alias('generate')
-  .description('Generate a new scene or extended prefab')
+  .description('Generate a new scene or extended class')
   .usage('[type:[name|/nested/folder/to/name]]' +
       '\n\n  Available types: ' +
       '\n\n     sprite         Generate extended sprite' +
-      '\n                    phaser g sprite:triggers/void -> prefabs/triggers/void.js' +
-      '\n\n     scene          Generate a new state' +
-      '\n                    phaser g scene:credits -> scenes/credits.js')
+      '\n                    phaser g sprite:/entities/entity -> scripts/entities/entity.js' +
+      '\n\n     state          Generate a new state' +
+      '\n                    phaser g state:menu -> states/menu.js')
   .action(generate);
 
 // Run cli
