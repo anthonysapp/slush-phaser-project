@@ -1,6 +1,6 @@
 {
   "name": "slush-relish-phaser-project",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A slush generator for createing phaser games using es6 module system - forked from pixelpicosean/slush-phaser-project",
   "keywords": [
     "slushgenerator",
