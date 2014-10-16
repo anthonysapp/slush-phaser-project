@@ -152,7 +152,7 @@ function setupTask(generator) {
         if (typeof srcPath === 'string') {
             dirName = (type === 'state') ? 'states' : '';
             finalPath = pathNested ? dirName + pathName : dirName;
-            destPath =  path.resolve('src/scripts') + '/' + finalPath;
+            destPath =  path.resolve('src/scripts') + finalPath;
 
             generatorEngine(type, srcPath, moduleName, fileName, finalPath, destPath);
         }
