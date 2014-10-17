@@ -9,12 +9,12 @@ var game, App = {};
 
 App.start = function() {
     game = new Phaser.Game(
-        <%= width %>, <%= height %>,
+        960, 640,
         Phaser.AUTO,
         'game-container'
     );
 
-    game.analytics = new Analytics('<%= packageName %>');
+    game.analytics = new Analytics('phaser-game');
 
     game.state.add('boot', Boot);
     game.state.add('preload', Preload);

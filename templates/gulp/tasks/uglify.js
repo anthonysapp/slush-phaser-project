@@ -8,14 +8,14 @@ var gulp       = require('gulp'),
 gulp.task('uglify', [ 'scripts' ], function () {
     return gulp.src([
             './bower_components/traceur-runtime/traceur-runtime.js',
-            <% if (needPIXI) { %>'./bower_components/phaser-official/build/custom/pixi.js',<% } %>
-            './bower_components/phaser-official/build/<%= phaserPath %>',
-            <% _.forEach(externalLibs, function(lib) { %>'./bower_components/phaser-official/build/custom/<%- lib %>.js',<% }); %>
-            './.tmp/game.js'
+            
+            './bower_components/phaser-official/build/custom/phaser-arcade-physics.js',
+            
+            './.tmp/assets/js/game.js'
         ])
         .pipe(sourcemaps.init())
         .pipe(concat('game.min.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(paths['product']));
+        .pipe(gulp.dest(paths['product'] + '/assets/js'));
 });

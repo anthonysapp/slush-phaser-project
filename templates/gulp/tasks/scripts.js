@@ -17,5 +17,5 @@ gulp.task('scripts', [ 'lint' ], function () {
         }))
         .pipe(concat('game.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest(paths['temp']));
+        .pipe(gulp.dest(paths['temp'] + '/assets/js'));
 });
