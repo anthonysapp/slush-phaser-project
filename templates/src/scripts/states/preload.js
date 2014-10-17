@@ -17,15 +17,11 @@ class Preload {
         this.load.image('logo', 'assets/logo.png');
          */
 
-        // Signal for when preload completes
+        // (optional) Signal for when preload completes
         this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
     }
 
     create() {
-        //
-    }
-
-    onLoadComplete() {
         // (optionally) show the splash page or menu
         this.game.state.start('menu', true, false);
     }
