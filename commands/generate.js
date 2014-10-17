@@ -171,8 +171,9 @@ var generate = function(options) {
     var typeAndName = argv._.slice()[1],
         generatorAndTasks = typeAndName.length ? typeAndName.split(':') : undefined,
         validTypes = [
-            'entity', 'sprite',
-            'state'
+            'state',
+            'sprite',
+            'group'
         ],
         gen;
 

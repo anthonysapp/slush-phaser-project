@@ -1,10 +1,11 @@
 class __NAMESPACE__ extends Phaser.Sprite {
 
-    constructor(game, x, y/*, your-params-here*/) {
-        super(game, x, y, 'logo');
+    constructor(game, x, y, name = '__NAMESPACE__') {
+        super(game, x, y, name);
 
         /* init code here */
-        this.anchor.setTo(0.5);
+        // set the anchor point to the middle of the sprite
+        // this.anchor.setTo(0.5);
     }
 
     update() {}
