@@ -10,7 +10,7 @@
 
 - easy workflow lets you focus on crafting awesome games
 - ES6 features supported
-- Scene(state) and prefab generator
+- state and prefab generator
 - Simple class system
 - gulp (a build tool of choice) build insanely fast via node stream api
 - lighting fast development rebuild system
@@ -83,19 +83,19 @@ Now there's only generator support from the cli command, maybe project or some o
 
 #### Sample Usage
 
-Generate a new state called `Credits`:
+Generate a new state called `Credits` (automatically goes in the `states` folder):
 ```sh
-phaser g state:credits
+phaser g state:Credits
 ```
 
-Generate a new sprite prefab `Trigger`:
+Generate a new sprite `Actor`:
 ```sh
-phaser g sprite:trigger
+phaser g sprite:Actor
 ```
 
-Generate a new sprite prefab `Radar` in `prefabs/triggers` folder:
+Generate a new sprite `Actor` in `actors` folder:
 ```sh
-phaser g sprite:triggers/radar
+phaser g sprite:actors/Actor
 ```
 
 ## Workflow
@@ -167,4 +167,4 @@ THE SOFTWARE.
 [slush-phaser-project]: https://github.com/PixelPicoSean/slush-phaser-project
 [pixelpicosean]:https://github.com/pixelpicosean/
 
-[issues]: https://github.com/anthonysapp/slush-phaser-project/issues
+[issues]: https://github.com/anthonysapp/slush-relish-phaser-project/issues
