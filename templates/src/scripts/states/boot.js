@@ -1,7 +1,7 @@
 class Boot {
 
     preload() {
-        this.load.image('preloader', 'assets/preloader.gif');
+        //load the assets for the preload state here
     }
 
     create() {

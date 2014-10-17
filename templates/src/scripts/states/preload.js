@@ -1,23 +1,32 @@
 class Preload {
 
     constructor() {
-        this.loadingSprite = null;
+
     }
 
     preload() {
+        // Show the preloader here (example preloader sprite below)
+        /*
         this.loadingSprite = this.add.sprite(320, 480, 'preloader');
         this.loadingSprite.anchor.setTo(0.5, 0.5);
-
-        this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
         this.load.setPreloadSprite(this.loadingSprite);
+         */
 
-        // Load game assets here
+        // Load game assets here (example below)
+        /*
         this.load.image('logo', 'assets/logo.png');
+         */
+
+        // Signal for when preload completes
+        this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
     }
 
-    create() {}
+    create() {
+        //
+    }
 
     onLoadComplete() {
+        // (optionally) show the splash page or menu
         this.game.state.start('menu', true, false);
     }
 
