@@ -123,13 +123,15 @@ Only the action is required, but you may want to add extra options, such as heal
 > "Perhaps by early 2015 we ought to be looking at going purely ES6? Moving to using more advanced native browser features like Object.observe and Promises." -- Richard, the author of Phaser.io
 
 ## Thanks
-This project is a fork of the [slush-phaser-project]: https://github.com/PixelPicoSean/slush-phaser-project by [Sean Bohan]: https://github.com/pixelpicosean
+This project is a fork of the [slush-phaser-project][slush-phaser-project]
+by Sean Bohan [pixelpicosean]
+
 
 ---
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Relish
+Copyright (c) 2014 Relish / Anthony Sapp
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -156,5 +158,7 @@ THE SOFTWARE.
 [phaser]:       http://phaser.io/
 [traceur]:      https://github.com/google/traceur-compiler
 [analytics]:    http://www.google.com/analytics/
+[slush-phaser-project]: https://github.com/PixelPicoSean/slush-phaser-project
+[pixelpicosean]:https://github.com/pixelpicosean/
 
 [issues]: https://github.com/anthonysapp/slush-phaser-project/issues
