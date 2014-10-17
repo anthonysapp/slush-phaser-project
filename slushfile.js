@@ -70,12 +70,12 @@ gulp.task('default', function(done) {
         {
             type: 'list',
             name: 'phaserCustom',
-            message: 'Choose physics systems you want, including those you MAY use in the future',
+            message: 'Choose physics systems you want',
             choices: [
-                { name: 'Only arcade (Recommended)', value: 'arcade' },
+                { name: 'No physics support', value: 'none' },
+                { name: 'Arcade physics support (recommended)', value: 'arcade' },
                 { name: 'All', value: 'all' },
-                { name: 'Customise', value: '?' },
-                { name: 'No physics support', value: 'none' }
+                { name: 'Customise', value: '?' }
             ],
             default: 0
         },
@@ -129,9 +129,9 @@ gulp.task('default', function(done) {
 
         // Config phaser path
         var phaserPaths = {
-            'all': 'phaser.js',
-            'none': 'custom/phaser-no-libs.js',
+            'none': 'custom/phaser-no-physics.js',
             'arcade': 'custom/phaser-arcade-physics.js',
+            'all': 'phaser.js',
             '?': 'custom/phaser-no-libs.js'
         };
         answers.phaserPath = phaserPaths[answers['phaserCustom']];
@@ -146,7 +146,7 @@ gulp.task('default', function(done) {
                 answers['externalLibs'].length = 0;
             }
             else {
-                // Reset phaser path to the arcade one if arcade choosed
+                // Reset phaser path to the arcade one if arcade is chosen
                 var index = answers['externalLibs'].indexOf('arcade');
                 if (index !== -1) {
                     answers.phaserPath = phaserPaths['arcade'];

@@ -155,7 +155,7 @@ THE SOFTWARE.
 [npm-image]: http://img.shields.io/npm/v/npm.svg
 
 [dependency-image]: http://img.shields.io/david/strongloop/express.svg
-[dependency-url]: https://david-dm.org/pixelpicosean/slush-relish-phaser-project
+[dependency-url]: https://david-dm.org/anthonysapp/slush-relish-phaser-project
 
 [node]:         http://nodejs.org/
 [gulp]:         http://gulpjs.com/
