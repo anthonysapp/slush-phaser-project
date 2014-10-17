@@ -124,7 +124,7 @@ Only the action is required, but you may want to add extra options, such as heal
 
 ## Thanks
 This project is a fork of the [slush-phaser-project][slush-phaser-project]
-by Sean Bohan [pixelpicosean]
+by [Sean Bohan][pixelpicosean]
 
 
 ---
