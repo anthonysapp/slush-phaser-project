@@ -1,6 +1,6 @@
 {
-  "name": "slush-relish-phaser-project",
-  "version": "0.4.9",
+  "name": "slush-relish-es6-phaser-project",
+  "version": "0.4.10",
   "description": "A slush generator for createing phaser games using es6 module system - forked from pixelpicosean/slush-phaser-project",
   "keywords": [
     "slushgenerator",
@@ -11,10 +11,10 @@
   "author": "Relish",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anthonysapp/slush-relish-phaser-project"
+    "url": "https://github.com/anthonysapp/slush-relish-es6-phaser-project"
   },
   "bugs": {
-    "url": "https://github.com/anthonysapp/slush-relish-phaser-project/issues"
+    "url": "https://github.com/anthonysapp/slush-relish-es6-phaser-project/issues"
   },
   "licence": "MIT",
   "main": "src/commands/cli",

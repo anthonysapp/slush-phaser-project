@@ -1,6 +1,6 @@
 # Phaser Slush Generator
 
-[![NPM](https://nodei.co/npm/slush-relish-phaser-project.png?global=true)](https://nodei.co/npm/slush-relish-phaser-project/)
+[![NPM](https://nodei.co/npm/slush-relish-es6-phaser-project.png?global=true)](https://nodei.co/npm/slush-relish-es6-phaser-project/)
 
 [![NPM version][npm-image]][npm-url]    [![Dependency Status][dependency-image]][dependency-url]
 
@@ -35,7 +35,7 @@ You will need to have [node][node], [gulp][gulp] and [slush][slush] setup on you
 
 Simply run the following command:
 ```
-npm install -g slush-relish-phaser-project
+npm install -g slush-relish-es6-phaser-project
 ```
 
 ## Getting started
@@ -151,11 +151,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-[npm-url]: https://www.npmjs.org/package/slush-relish-phaser-project
+[npm-url]: https://www.npmjs.org/package/slush-relish-es6-phaser-project
 [npm-image]: http://img.shields.io/npm/v/npm.svg
 
 [dependency-image]: http://img.shields.io/david/strongloop/express.svg
-[dependency-url]: https://david-dm.org/anthonysapp/slush-relish-phaser-project
+[dependency-url]: https://david-dm.org/anthonysapp/slush-relish-es6-phaser-project
 
 [node]:         http://nodejs.org/
 [gulp]:         http://gulpjs.com/
@@ -167,4 +167,4 @@ THE SOFTWARE.
 [slush-phaser-project]: https://github.com/PixelPicoSean/slush-phaser-project
 [pixelpicosean]:https://github.com/pixelpicosean/
 
-[issues]: https://github.com/anthonysapp/slush-relish-phaser-project/issues
+[issues]: https://github.com/anthonysapp/slush-relish-es6-phaser-project/issues
