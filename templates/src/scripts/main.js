@@ -1,9 +1,9 @@
-import Analytics from 'utils/analytics';
+import Analytics from 'utils/Analytics';
 
-import Boot from 'states/boot';
-import Preload from 'states/preload';
-import Menu from 'states/menu';
-import Game from 'states/game';
+import Boot from 'states/Boot';
+import Preload from 'states/Preload';
+import Menu from 'states/Menu';
+import Game from 'states/Game';
 
 var game, App = {};
 
