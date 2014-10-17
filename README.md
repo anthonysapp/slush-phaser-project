@@ -35,7 +35,7 @@ You will need to have [node][node], [gulp][gulp] and [slush][slush] setup on you
 
 Simply run the following command:
 ```
-npm install -g slush-phaser-project
+npm install -g slush-relish-phaser-project
 ```
 
 ## Getting started
