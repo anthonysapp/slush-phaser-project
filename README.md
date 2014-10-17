@@ -1,6 +1,6 @@
 # Phaser Slush Generator
 
-[![NPM](https://nodei.co/npm/slush-phaser-project.png?global=true)](https://nodei.co/npm/slush-phaser-project/)
+[![NPM](https://nodei.co/npm/slush-relish-phaser-project.png?global=true)](https://nodei.co/npm/slush-relish-phaser-project/)
 
 [![NPM version][npm-image]][npm-url]    [![Dependency Status][dependency-image]][dependency-url]
 
@@ -150,6 +150,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+[npm-url]: https://www.npmjs.org/package/slush-relish-phaser-project
+[npm-image]: http://img.shields.io/npm/v/npm.svg
+
+[dependency-image]: http://img.shields.io/david/strongloop/express.svg
+[dependency-url]: https://david-dm.org/pixelpicosean/slush-relish-phaser-project
 
 [node]:         http://nodejs.org/
 [gulp]:         http://gulpjs.com/
