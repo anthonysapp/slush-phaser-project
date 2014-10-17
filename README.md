@@ -72,7 +72,7 @@ Now there's only generator support from the cli command, maybe project or some o
     phaser [command] [options]
 
     Commands:
-        g|generate         // Generate a new state/prefab with ES6 support
+        g|generate         // Generate a new state/class extension with ES6 support
 
     Options:
         -h, --help     output usage information
@@ -102,13 +102,7 @@ phaser g sprite:triggers/radar
 
 > The workflow introduced below is recommended but not forced which will just make your life easier :D
 
-There're 2 folders **"design"** and **"media"** created at root path, both of them are empty by default.
-
-The **"design"** folder is made for your game design docs, graphs and sketches.
-
-The **"media"** folder is for your original assets(ai, psd, wav...). You may process them with tools like TexturePacker, Audacity... to phaser friendly formats(png, ogg...) and put them into `static/assets` for use.
-
-When **editing source code**, make sure you update the files within the `project` directory. These files will then be compiled and reload for developing or compressed and added to the `dist` directory for publishing.
+When **editing source code**, make sure you update the files within the `src` directory. These files will then be compiled and reload for developing or compressed and added to the `dist` directory for publishing.
 
 ECMAScript 6 features are supported with help of [Traceur][Traceur]. This means you can write code with syntax which is going to be supported officially by Phaser 3.
 
@@ -128,16 +122,14 @@ Only the action is required, but you may want to add extra options, such as heal
 
 > "Perhaps by early 2015 we ought to be looking at going purely ES6? Moving to using more advanced native browser features like Object.observe and Promises." -- Richard, the author of Phaser.io
 
-## TODO
-See [Issues][issues] and [Milestones][milestones]
-
-Happy coding!
+## Thanks
+This project is a fork of the [slush-phaser-project]: https://github.com/PixelPicoSean/slush-phaser-project by [Sean Bohan]: https://github.com/pixelpicosean
 
 ---
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Sean Bohan
+Copyright (c) 2014 Relish
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -165,11 +157,4 @@ THE SOFTWARE.
 [traceur]:      https://github.com/google/traceur-compiler
 [analytics]:    http://www.google.com/analytics/
 
-[npm-url]: https://www.npmjs.org/package/slush-phaser-project
-[npm-image]: http://img.shields.io/npm/v/npm.svg
-
-[dependency-image]: http://img.shields.io/david/strongloop/express.svg
-[dependency-url]: https://david-dm.org/pixelpicosean/slush-phaser-project
-
-[issues]: https://github.com/pixelpicosean/slush-phaser-project/issues
-[milestones]: https://github.com/pixelpicosean/slush-phaser-project/milestones
+[issues]: https://github.com/anthonysapp/slush-phaser-project/issues
